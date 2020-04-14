@@ -1,0 +1,85 @@
+{
+  "id": "9df561f5-1265-46bc-9fce-e67cfcd441f1",
+  "name": "get all code",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "You can get all the source code from this GitHub Link.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Code",
+          "subtitle": "You can get all the source code from this GitHub Link.",
+          "formattedText": "Get your code here.",
+          "image": {
+            "url": "https://www.ateamindia.com/wp-content/uploads/2019/03/maxresdefault.jpg",
+            "accessibilityText": "get code"
+          },
+          "buttons": [
+            {
+              "title": "GitHub Link",
+              "openUrlAction": {
+                "url": "https://github.com/shantamsultania/cororna-holidays-tutorials-day1",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about computer vision"
+            },
+            {
+              "title": "about opencv"
+            },
+            {
+              "title": "more"
+            },
+            {
+              "title": "examples"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

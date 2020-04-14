@@ -1,0 +1,62 @@
+[
+  {
+    "id": "77d87df4-179d-4bb4-ab9c-2466e9b54fa6",
+    "data": [
+      {
+        "text": "what are the services offered",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c09170dc-e3cd-47f4-b5e1-4e0190c21829",
+    "data": [
+      {
+        "text": "what can you help me with",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "54ac42cd-fa9f-4589-838b-48a81c748bf1",
+    "data": [
+      {
+        "text": "what more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "01f010ca-e739-4dba-a8e4-cd4e0b8d0623",
+    "data": [
+      {
+        "text": "tell me more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ddda042-e8ce-4f78-9215-dabbacea13ec",
+    "data": [
+      {
+        "text": "more",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

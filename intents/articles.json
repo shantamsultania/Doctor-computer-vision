@@ -1,0 +1,90 @@
+{
+  "id": "a6e8ecc8-0ce7-49e1-8a8f-8923e139598f",
+  "name": "articles",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "You can read about how to make them and other projects related to here.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "read articles on how to make them",
+          "formattedText": "You can read articles on how to make them by clicking the link below.",
+          "image": {
+            "url": "https://www.besttechie.com/wp-content/uploads/2017/08/medium-new-logo-2017.png",
+            "accessibilityText": "How to"
+          },
+          "buttons": [
+            {
+              "title": "Link",
+              "openUrlAction": {
+                "url": "https://medium.com/@unknown.underme",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about opencv"
+            },
+            {
+              "title": "about computer vision"
+            },
+            {
+              "title": "more"
+            },
+            {
+              "title": "facial detection"
+            },
+            {
+              "title": "examples"
+            },
+            {
+              "title": "get code"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

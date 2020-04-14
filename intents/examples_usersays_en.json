@@ -1,0 +1,122 @@
+[
+  {
+    "id": "c6b272c7-f5ee-45fb-81d9-8ba071bb7e0b",
+    "data": [
+      {
+        "text": "detection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7557f52-37bc-4224-be21-7278a592ada1",
+    "data": [
+      {
+        "text": "object detection",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a812c127-7aa2-42c0-af19-6da8757889bd",
+    "data": [
+      {
+        "text": "show me examples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7ebacb80-3ff9-4196-83f8-1cec53418c43",
+    "data": [
+      {
+        "text": "examples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "97a62663-b378-437a-9d26-509a9dd84341",
+    "data": [
+      {
+        "text": "tut exampels",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ca92d80-3610-449e-83da-27dff135aa94",
+    "data": [
+      {
+        "text": "show me an example of the same",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "17b053f1-8da1-4b7a-b4c8-c5f34f02fd28",
+    "data": [
+      {
+        "text": "show some examples",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a5e319f9-1a21-403b-862b-8d6f93deda5c",
+    "data": [
+      {
+        "text": "show demo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4e2102e2-8dc5-4816-8c52-3545ec867e47",
+    "data": [
+      {
+        "text": "show me an example",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a854e6c8-82fa-4432-8427-797e6b55bc3e",
+    "data": [
+      {
+        "text": "example",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

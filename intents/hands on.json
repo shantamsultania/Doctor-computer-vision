@@ -1,0 +1,66 @@
+{
+  "id": "3ca07c3a-9493-43f6-9048-21810696f65f",
+  "name": "hands on",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Hello welcome here I will be giving you an hands on experence you can chose from these suggestions",
+          "ssml": "",
+          "displayText": "These are some of the hands on I can teach you\nRead, write, and show an image.\nopen webcam\nfacial detection system"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "read, write,show an image"
+            },
+            {
+              "title": "open web cam"
+            },
+            {
+              "title": "make facial detection"
+            },
+            {
+              "title": "Get all source code"
+            },
+            {
+              "title": "read articles on howto"
+            },
+            {
+              "title": "About me"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

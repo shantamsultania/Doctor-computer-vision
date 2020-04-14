@@ -1,0 +1,85 @@
+{
+  "id": "89581e07-7a76-4ef4-b9da-53a098d8df57",
+  "name": "About me",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Shantam Sultania a Student of CSE Department of Chandigarh University ,Mohai ,Punjab Created this google assistant.",
+          "ssml": "",
+          "displayText": "This action was developed by Shantam Sultania"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Shantam Sultania",
+          "subtitle": "Developer , Innovator and creator",
+          "formattedText": "hello I am a Android Developer, Internet of tings Developer, google assist developer, Amazon skill developer and Image processing enthusiast.",
+          "image": {
+            "url": "https://www.linkedin.com/dms/C5104AQH6TZY-kAqroQ/profile-originalphoto-shrink_900_1200/0?m\u003dAQKvf1Wt_oNzbQAAAXEhi_gJtzwnfcCw_PBqF_rOpbsjaobCIGfHUJsJIg\u0026e\u003d1585492153\u0026v\u003dbeta\u0026t\u003demFKlQyYRXnszV42132zOxkEJXkHmCR_nhSxU0NsqBI",
+            "accessibilityText": "shantam sultania"
+          },
+          "buttons": [
+            {
+              "title": "Find me at",
+              "openUrlAction": {
+                "url": "https://www.linkedin.com/in/shantam-sultania-737084175/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about opencv"
+            },
+            {
+              "title": "examples"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "get code"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

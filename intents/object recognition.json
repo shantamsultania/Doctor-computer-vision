@@ -1,0 +1,82 @@
+{
+  "id": "6c1add20-ce41-4ce4-a88e-01f94107dd83",
+  "name": "object recognition",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "object recognition system",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "object recognition system",
+          "subtitle": "for more see suggestions",
+          "formattedText": "Object recognition is a computer vision technique for identifying objects in images or videos. Object recognition is a key output of deep learning and machine learning algorithms. When humans look at a photograph or watch a video, we can readily spot people, objects, scenes, and visual details. The goal is to teach a computer to do what comes naturally to humans: to gain a level of understanding of what an image contains.",
+          "image": {
+            "url": "https://miro.medium.com/max/900/1*EYtn2YE7b6MTzMQyD2R3nA.jpeg",
+            "accessibilityText": "object recognition system"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "more"
+            },
+            {
+              "title": "object detection"
+            },
+            {
+              "title": "facial recognition"
+            },
+            {
+              "title": "facial detection"
+            },
+            {
+              "title": "face lock"
+            },
+            {
+              "title": "about me"
+            },
+            {
+              "title": "hands on"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

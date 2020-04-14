@@ -1,0 +1,75 @@
+{
+  "id": "2fce8f76-5c29-49d5-ba5a-9f9ecc7dc640",
+  "name": "read an image",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "You will be learning how to read, write adn show an image using OpenCV.",
+          "ssml": "",
+          "displayText": "How to read, write and show an image using OpenCV."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Basics (Read, Write and show an image)",
+          "formattedText": "Please refer to this link for for to read , write and show images for how to and source code",
+          "image": {
+            "url": "https://miro.medium.com/max/700/1*OfmPhlt3INcxZHiEN9oJGg.png",
+            "accessibilityText": "Basics (Read, Write and show an image)"
+          },
+          "buttons": [
+            {
+              "title": "How to",
+              "openUrlAction": {
+                "url": "https://medium.com/@unknown.underme/read-write-and-show-an-image-in-opencv-basics-of-opencv-7b3bf418c3cb?sk\u003d6d5962771c0fa57db01ae4baf8933931",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Open Webcam"
+            },
+            {
+              "title": "Facial detection system"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

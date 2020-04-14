@@ -1,0 +1,82 @@
+{
+  "id": "4fbc5b1f-06ca-418f-b8b1-f9b58d1fa0e0",
+  "name": "about computer vision",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "computer vision",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Computer Vison",
+          "subtitle": "What a Compute See",
+          "formattedText": "Computer vision is a field of artificial intelligence that trains computers to interpret and understand the visual world. Using digital images from cameras and videos and deep learning models, machines can accurately identify and classify objects — and then react to what they “see\".",
+          "image": {
+            "url": "https://i.pcmag.com/imagery/articles/061CyMCZV6G2sXUmreKHvXS-1.fit_scale.size_2698x1517.v1581020108.jpg",
+            "accessibilityText": "computer vision"
+          },
+          "buttons": [
+            {
+              "title": "about computer vision",
+              "openUrlAction": {
+                "url": "https://en.wikipedia.org/wiki/Computer_vision",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about opencv"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "examples"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

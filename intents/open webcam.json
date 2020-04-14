@@ -1,0 +1,101 @@
+{
+  "id": "e89b3918-901d-4e87-b091-09216fc0ab6b",
+  "name": "open webcam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "8ade42cb-0fa8-4143-8a38-ca2eb3916258",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "this is a simple tutorial on how to open Webcam",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Open a Webcam using OpenCV",
+          "subtitle": "Open a Webcam using OpenCV",
+          "formattedText": "this is a Quick tutorial on how to Open a Web cam using OpenCV",
+          "image": {
+            "url": "https://i2.wp.com/thecodacus.com/wp-content/uploads/2017/07/sddefault.jpg?fit\u003d640%2C480\u0026ssl\u003d1",
+            "accessibilityText": "Open a Webcam"
+          },
+          "buttons": [
+            {
+              "title": "How to",
+              "openUrlAction": {
+                "url": "https://medium.com/@unknown.underme/opening-webcam-using-opencv-257ac258e217",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "About me"
+            },
+            {
+              "title": "About Opencv"
+            },
+            {
+              "title": "more"
+            },
+            {
+              "title": "examples"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "make a facial detection"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

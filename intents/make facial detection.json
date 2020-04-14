@@ -1,0 +1,84 @@
+{
+  "id": "3c5acc2c-cb92-4000-97ef-31c70964db7a",
+  "name": "make facial detection",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "this is a quick tutorial to how to make a facial detection system.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "how to make a Facial detection system",
+          "formattedText": "this is a quick tutorial on how to make a real time facial detection system",
+          "image": {
+            "url": "https://miro.medium.com/max/1366/1*7sVHuOiqZ8N_zxsGO4e4JQ.png",
+            "accessibilityText": "how to make a Facial detection system"
+          },
+          "buttons": [
+            {
+              "title": "how to",
+              "openUrlAction": {
+                "url": "https://medium.com/@unknown.underme/real-time-facial-detection-36167a6ef20b",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "how to"
+            },
+            {
+              "title": "open webcam"
+            },
+            {
+              "title": "about me"
+            },
+            {
+              "title": "get all source code"
+            },
+            {
+              "title": "more"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

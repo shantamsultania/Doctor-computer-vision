@@ -1,0 +1,144 @@
+[
+  {
+    "id": "ca460e62-e2e4-43ba-8daa-0ea22c1f0fcd",
+    "data": [
+      {
+        "text": "opening webcam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "947d8e02-11f0-4cd5-92ad-9b49463b3e63",
+    "data": [
+      {
+        "text": "opening web ",
+        "userDefined": false
+      },
+      {
+        "text": "cam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3e51840a-6b6c-4de5-b0b3-84d4b345dcc2",
+    "data": [
+      {
+        "text": "web ",
+        "userDefined": false
+      },
+      {
+        "text": "cam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      },
+      {
+        "text": " open",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3bb044e5-b5cf-4af4-8fd7-cebdd700ed0a",
+    "data": [
+      {
+        "text": "webcam open tutorial",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15bfe7a6-f786-4ce0-aa45-8852737e74b4",
+    "data": [
+      {
+        "text": "how to open webcam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0baf44a7-c86a-4083-a5fa-bdce8846e04c",
+    "data": [
+      {
+        "text": "open camera of laptop",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eeb4f596-d0bf-4a8d-813d-9881bfd16180",
+    "data": [
+      {
+        "text": "open camera",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e61fe1e7-cfc9-454a-8a33-886b52939507",
+    "data": [
+      {
+        "text": "open laptop camera",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "32c1d839-0555-4ad9-8ec7-270de39e3494",
+    "data": [
+      {
+        "text": "open webcam",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "02f95f61-2364-4a34-8476-29b2f86b9a03",
+    "data": [
+      {
+        "text": "open web ",
+        "userDefined": false
+      },
+      {
+        "text": "cam",
+        "alias": "given-name",
+        "meta": "@sys.given-name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "id": "86131e58-b981-4149-87de-34eb80ce24b0",
+  "name": "facial lock",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Here is an example of facial lock system",
+          "ssml": "",
+          "displayText": "This can be commonly seen in Smart phones these days."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "facial lock",
+          "subtitle": "this is an facial lock for others you can ask the assistant.",
+          "formattedText": "A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiple methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database.",
+          "image": {
+            "url": "https://factschronicle.com/wp-content/uploads/2017/09/Creating-detailed-3D-scans-by-using-New-Sony-Phone-app-01-min.jpg",
+            "accessibilityText": "facial lock"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "object detection"
+            },
+            {
+              "title": "object recognition"
+            },
+            {
+              "title": "facial recognition"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "facial detection"
+            },
+            {
+              "title": "more"
+            },
+            {
+              "title": "About me"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

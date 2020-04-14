@@ -1,0 +1,85 @@
+{
+  "id": "3ecd4762-0c06-4511-9c66-db7eefd936f7",
+  "name": "face detecion",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Face Detection System",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Face detection",
+          "subtitle": "For more examples you can see the suggestions",
+          "formattedText": "Facial Detection system is the basic of face recognition system.without facial detection w cannot recognize the face we want facial detection system include detection of face ,eyes or hand or any motion in an image or video.",
+          "image": {
+            "url": "https://blogeduonix-2f3a.kxcdn.com/wp-content/uploads/2018/09/Facial-Recognition-using-Open-CV-Python.jpg",
+            "accessibilityText": "Face Detection"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "object detection"
+            },
+            {
+              "title": "object recognistion"
+            },
+            {
+              "title": "facial lock"
+            },
+            {
+              "title": "facial recognition"
+            },
+            {
+              "title": "more"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about opencv"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

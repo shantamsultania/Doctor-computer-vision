@@ -1,0 +1,82 @@
+{
+  "id": "a5be5faf-a5cc-40f1-b506-c434e2e354eb",
+  "name": "examples",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Here is an examples of Computer Vision you can see anyone as you feel.",
+          "ssml": "",
+          "displayText": "There are many other examples like object detection, Object recognition, facial detection, facial recognition, facial lock and many more."
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Object detection",
+          "subtitle": "for others like object detection , Object recognition, facial detection, facial recognition and facial lock. your can ask the Assistant for the same.",
+          "formattedText": "Object detection is a computer technology related to computer vision and image processing that detects and defines objects such as humans, buildings and cars from digital images and videos.",
+          "image": {
+            "url": "https://blog-c7ff.kxcdn.com/blog/wp-content/uploads/2018/08/shutterstock_668209624-1.jpg",
+            "accessibilityText": "object Detection"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Facial detection"
+            },
+            {
+              "title": "facial Recognition"
+            },
+            {
+              "title": "object detection"
+            },
+            {
+              "title": "object recognition"
+            },
+            {
+              "title": "facial locks"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "more"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

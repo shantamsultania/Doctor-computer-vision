@@ -1,0 +1,85 @@
+{
+  "id": "df3f2aad-1e93-4378-9848-1c6da4166a38",
+  "name": "facial recognition",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Facial Recognition system",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Facial Recognition",
+          "subtitle": "For more examples please visit suggestions",
+          "formattedText": "A facial recognition system is a technology capable of identifying or verifying a person from a digital image or a video frame from a video source. There are multiple methods in which facial recognition systems work, but in general, they work by comparing selected facial features from given image with faces within a database.",
+          "image": {
+            "url": "https://www.irishtimes.com/polopoly_fs/1.3900464.1558513590!/image/image.jpg_gen/derivatives/box_620_330/image.jpg",
+            "accessibilityText": "Facial Recognition"
+          }
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "more"
+            },
+            {
+              "title": "object recognition"
+            },
+            {
+              "title": "facial lock"
+            },
+            {
+              "title": "facial detection"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "Object detection"
+            },
+            {
+              "title": "about me"
+            },
+            {
+              "title": "about opencv"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,95 @@
+{
+  "id": "2c30be21-7e62-445b-8097-2ccb3190af7c",
+  "name": "about open cv",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ea46a361-d0cc-4869-9bfc-91d010371173",
+          "required": false,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "opencv is also known as  Open Source computer Vision",
+          "ssml": "",
+          "displayText": "Open Source computer Vision( OpenCV )"
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "OpenCv",
+          "subtitle": "Open Source Computer Vision",
+          "formattedText": "OpenCV (Open Source Computer Vision Library) is an open source computer vision and machine learning software library. OpenCV was built to provide a common infrastructure for computer vision applications and to accelerate the use of machine perception in the commercial products.",
+          "image": {
+            "url": "https://i1.wp.com/syncedreview.com/wp-content/uploads/2018/11/1_5mFQsJUF4FcVAaTJSPI0aA.png?resize\u003d1440%2C580\u0026ssl\u003d1",
+            "accessibilityText": "OpenCV"
+          },
+          "buttons": [
+            {
+              "title": "To Know More",
+              "openUrlAction": {
+                "url": "https://opencv.org/",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "About me"
+            },
+            {
+              "title": "hands on"
+            },
+            {
+              "title": "about computer vision"
+            },
+            {
+              "title": "examples"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

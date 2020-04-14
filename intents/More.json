@@ -1,0 +1,66 @@
+{
+  "id": "44e593b2-e108-4875-bebf-7494c05862b9",
+  "name": "More",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "I can help you with things Like",
+          "ssml": "",
+          "displayText": "hands on example of OpenCV, Show you examples , can tell you about Opencv and computer vision and many more you can see suggestions for that"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "About me"
+            },
+            {
+              "title": "About Opencv"
+            },
+            {
+              "title": "Examples"
+            },
+            {
+              "title": "Hands on"
+            },
+            {
+              "title": "about compute vision"
+            },
+            {
+              "title": "more"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

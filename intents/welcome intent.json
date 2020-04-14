@@ -1,0 +1,113 @@
+{
+  "id": "05d42b4f-c9ee-4875-92d5-cb8642b50c46",
+  "name": "welcome intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": true,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "e3638a4c-9044-4933-b135-038f369b05a3",
+          "required": true,
+          "dataType": "@sys.given-name",
+          "name": "given-name",
+          "value": "$given-name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hello welcome to Computer Vision tutorials Can i Can get your name Please."
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "Greetings of the day,Welcome to computer Vision Tutorials.",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "basic_card",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "title": "Computer Vision",
+          "subtitle": "Computer  Vision",
+          "formattedText": "Hello $given-name...!! Welcome to computer Vision Tutorials. In this Tutorial You can Learn about OpenCV , some hands on examples (for this just say \"hands on or teach me \") and also get Source code of the same (for this just say \"source code please or show me the code\")",
+          "image": {
+            "url": "https://i.ytimg.com/vi/-4E2-0sxVUM/maxresdefault.jpg",
+            "accessibilityText": "Computer Vision"
+          },
+          "buttons": [
+            {
+              "title": "click me",
+              "openUrlAction": {
+                "url": "https://en.wikipedia.org/wiki/Computer_vision",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              }
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "About me"
+            },
+            {
+              "title": "About Computer vision"
+            },
+            {
+              "title": "About OpenCV"
+            },
+            {
+              "title": "Hands On"
+            },
+            {
+              "title": "Examples"
+            }
+          ]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "GOOGLE_ASSISTANT_WELCOME"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

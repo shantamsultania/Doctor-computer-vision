@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5632a6d7-944c-4155-8b33-90eaf0c8e921",
+    "data": [
+      {
+        "text": "medium pages",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "1c65df69-72f6-4eef-b7d5-36addd6331f6",
+    "data": [
+      {
+        "text": "articles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ffda93df-b4a8-4f98-b66f-b1bc7ac6f0c5",
+    "data": [
+      {
+        "text": "articles on how to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e22464b1-a64f-4577-b890-c2f20407f8b9",
+    "data": [
+      {
+        "text": "how to articles",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c2bd7c03-8a6a-4400-8d16-c121ca1d03b6",
+    "data": [
+      {
+        "text": "read articles on how to",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7c2fd533-ec3a-4285-9ed0-9f85d6ebdec4",
+    "data": [
+      {
+        "text": "read articles on howto",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]
